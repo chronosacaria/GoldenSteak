@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GCG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "C": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "result": {
+    "item": "goldensteak:enchanted_golden_steak",
+    "count": 1
+  }
+}

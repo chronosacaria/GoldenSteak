@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "goldensteak",
+  "version": "${version}",
+  "name": "Goldensteak",
+  "description": "Adds golden steak and enchanted golden steak to Minecraft",
+  "authors": [
+    "chronosacaria"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/goldensteak/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "chronosacaria.goldensteak.client.GoldensteakClient"
+    ],
+    "main": [
+      "chronosacaria.goldensteak.Goldensteak"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": "1.16.*"
+  }
+}
