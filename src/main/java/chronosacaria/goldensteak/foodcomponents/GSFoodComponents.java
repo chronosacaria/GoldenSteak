@@ -35,6 +35,7 @@ public class GSFoodComponents {
                     .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 6000, 0), 1.0F)
                     .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 6000, 0), 1.0F)
                     .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 2400, 3), 1.0F)
+                    .meat()
                     .alwaysEdible()
                     .build()
             )
