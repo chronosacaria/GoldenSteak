@@ -29,7 +29,7 @@ public class GSFoodComponents {
     public static final Item ENCHANTED_GOLDEN_STEAK = new EnchantedGoldenSteak(new Item.Settings()
             .group(ItemGroup.FOOD)
             .food(new FoodComponent.Builder()
-                    .hunger(4)
+                    .hunger(8)
                     .saturationModifier(1.2F)
                     .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 400, 1), 1.0F)
                     .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 6000, 0), 1.0F)
