@@ -7,7 +7,11 @@
   "authors": [
     "chronosacaria"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/golden-steak",
+    "sources": "https://github.com/chronosacaria/GoldenSteak",
+    "issues": "https://github.com/chronosacaria/GoldenSteak/issues"
+  },
   "license": "MIT",
   "icon": "assets/goldensteak/icon.png",
   "environment": "*",
